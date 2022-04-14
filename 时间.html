@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+
+    <script>
+    //    var date = new Date();
+       
+    //    h=date.getHours();
+    //    m=date.getMinutes();
+    //    s=date.getSeconds();
+       function getTime() {
+       
+       var time = new Date();
+       var y=date.getFullYear();
+       //0~11  月份小一个月，记得+1
+       var month = date.getMonth()+1;
+       month = month < 10 ? "0" + month : month;
+       var d = date.getDate();
+       d = d < 10 ? "0" + d : d;
+       var h=date.getHours();
+       //如果小于10，在前面补0  形成 06:09:10格式
+       h = h < 10 ? "0" + h : h;
+       var m=date.getMinutes();
+       m = m < 10 ? "0" + m : m;
+       var s=date.getSeconds();
+       s = s < 10 ? "0" + s : s;
+       return (year +"/" + month +"/" + date + " " +hour +":" +minute +":" +second)
+       }
+       
+      alert(getTime());
+    </script>
+  </body>
+</html>

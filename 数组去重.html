@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+  </head>
+
+    <script>
+      var array = ["x", "c", "a", "b", "c", "b", "c"];
+ //新建一个空的结果数组，for 循环原数组，判断结果数组是否存在当前元素，如果有相同的值则跳过，不相同则push进数组。
+      function fun1(arr) {
+          var newArray = [];
+          for (var i = 0; i<array.length; i++){
+              if (newArray.indexOf(arr[i]) === -1) {
+               newArray.push(arr[i])
+        }
+          }
+          return newArray
+      }
+      alert(fun1(array));
+    </script>
+  </body>
+</html>

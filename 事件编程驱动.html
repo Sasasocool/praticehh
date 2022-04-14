@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>事件驱动编程</title>
+    <style type="text/css">
+      * {
+          margin: 0;
+          padding: 0;
+      }
+      #external {
+        width: 100%;
+        background-color: skyblue;
+        margin: 0 auto;
+      }
+  
+      ul {
+        width: 60%;
+        background-color: purple;
+        list-style: none;
+        margin: 15px auto;
+        
+      }
+      li {
+        width: 60%;
+        margin: 15px auto;
+        background-color: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="external">
+      <button id="add">添加元素</button>
+      <button id="delete">删除元素</button>
+      <ul id="ul-content">
+        我是ul
+        <li>我是li1</li>
+        
+      </ul>
+    </div>
+    <script>
+     //获取事件源
+      var add = document.getElementById("add"); 
+      var delete = document.getElementById("delete"); 
+      var content = document.getElementById("ul-content"); 
+      var li = document.getElementsByTagName("li"); 
+      add.onclick = function() {
+         var li = document.createElement("li");
+         var txt = document.createTextNode("我是li" + (content.children.length+1));
+         li.appendChild(txt);
+         content.appendChild(li);
+       }
+       delete.onclick = function() {
+           if (content.children.length ==0){
+               return;
+           }else{
+               content.removeChild(content.lastChild);
+           }
+       }
+       
+
+    </script>
+  </body>
+</html>
