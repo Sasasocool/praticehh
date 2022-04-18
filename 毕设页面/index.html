@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网上预约挂号</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-nav">
+            <div class="nav-left">
+                <span>您好！ 请</span>
+                <a href="#">登录</a>
+                <span class="line"> | </span>
+                <a href="#">注册</a>
+                <a href="#" class="doctor">
+                    我是医生
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="#">微医首页</a>
+                <span>  |  </span>
+                <a href="#">下载APP</a>
+                <span>  |  </span>
+                <a href="#">快速取消订单</a>
+                <span>  |  </span>
+                <a href="#">客服中心</a>
+                <span>  |  </span>
+                <a href="#">微医云</a>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="main-contain">
+                <div class="mainlogo">
+                    <a href="#">
+                        <img src="./image/logo.PNG" alt="微医">
+                    </a>
+                </div>
+                <div class="search">
+                    <form action="https://www.guahao.com/search">
+                        <input type="search" >
+                        <button class="btn-search">搜索</button>
+                    </form>
+                </div>
+                <div class="img-handle">
+                    <img src="./image/handle.PNG" alt="就医指南">
+                </div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="menu-container">
+                <div class="convenient">
+                    快速帮你找医生
+                </div>
+                <div class="menu-a">
+                    <a href="#" >在线问诊</a>                    
+                    <a href="#" id="onlineConsultation">预约挂号</a>
+                    <a href="#">快速问诊</a>
+                    <a href="#">微医会员</a>
+                    <a href="#">专家团队</a>
+                    <a href="#">健康E务室</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="transition">
+      <a href="https:www.guahao.com">首页</a>
+      <span>>预约挂号</span></span>
+    </div>
+    <div class="gh-container">
+        <div class="gh-left">
+           <div class="gh-yygh">
+               <h3>预约挂号</h3>
+               <p>
+                帮助普通患者快速找到选定条件下可预约的专家
+                </p>
+                <p>(目前只支持部分医院)</p>
+           </div>
+           <div class="gh-bd">
+               <div class="bd1">
+                   <img src="./image/sousuo1.PNG" alt="快速筛查">
+                   <div class="bd1-r">
+                       <h4>快速筛选</h4>
+                       <p>根据区域、医院、科室快速筛选对应班次</p>
+                   </div>
+               </div>
+               <div class="bd2">
+                <img src="./image/people.PNG" alt="适用人群">
+                <div class="bd2-r">
+                    <h4>适用人群</h4>
+                    <p>未确定具体病症，希望尽快就医确诊的普通患者</p>
+                </div>
+               </div>
+           </div>
+           
+           <div class="qrcode">
+                <p class="title">手机挂号10秒搞定！</p>
+                <p>立即扫描下载微医APP或</p>
+                <p>关注微信公众号，让看病变得更简单！</p>
+                <ul class="qrcode-list">
+                    <li>
+                        <p><img src="./image/Wyapp.png"></p>
+                        <p>微医App</p>
+                    </li>
+                    <li>
+                        <p><img src="./image/qrcode-1.png" style="padding: 2px;box-sizing: border-box;"></p>
+                        <p>医生号源提醒</p>
+                    </li>
+                    <li>
+                        <p><img src="./image/wy_xcx.jpg"></p>
+                        <p>微医小程序</p>
+                    </li>
+                    <li>
+                        <p><img src="./image/wx.png"></p>
+                        <p>微医公众号</p>
+                    </li>
+                </ul>
+            </div>
+
+           <div class="download">
+               <div>
+                <a href="#">
+                    <button class="iPhone">iPhone下载</button>
+                </a>
+               </div>
+               <div >
+                <a href="#" >
+                    <button class="Android">Android下载</button>
+                   </a>
+               </div>
+           </div>
+        </div>
+        <div class="gh-right">
+           <div class="tips">
+            温馨提醒：费用由医院自行设定，平台不收取任何额外费用
+           </div>
+           <div class="databox">
+            <div class="selection">
+                <label >地区：</label>
+                <select class="province" name="province">
+                <option value="">请选择...</option>
+                <option value="2">上海</option>
+                <option value="1">北京</option>
+                <option value="29">广东</option>
+                <option value="22">江苏</option>
+                <option value="24">浙江</option>
+                <option value="9">陕西</option>
+                <option value="11">甘肃</option>
+                <option value="21">山东</option>
+                <option value="8">山西</option>
+                <option value="19">湖北</option>
+                <option value="30">湖南</option>
+                <option value="3">天津</option>
+                <option value="15">四川</option>
+                <option value="25">江西</option>
+                <option value="23">安徽</option>
+                <option value="20">河南</option>
+                <option value="16">河北</option>
+                <option value="12">青海</option>
+                <option value="5">辽宁</option>
+                <option value="18">贵州</option>
+                <option value="4">重庆</option>
+                <option value="7">黑龙江</option>
+                <option value="17">云南</option>
+                <option value="31">广西</option>
+                <option value="10">宁夏</option>
+                <option value="14">西藏</option>
+                <option value="33">内蒙古</option>
+                <option value="32">海南</option>
+                <option value="6">吉林</option>
+                <option value="13">新疆</option>
+                <option value="27">福建</option>
+                <option value="500">香港</option>
+                <option value="501">澳门</option>
+            </select>
+            </div>
+            <div class="selection citySelection">
+                <label>&nbsp;</label>
+                <select class="city " disabled="disabled" name="city">
+                    <option value="">请选择...</option>
+                </select>
+            </div>
+            <div class="selection">
+                <label>医院：</label>
+                <select class="hospital " name="hospital" disabled="disabled">
+                    <option value="">请选择...</option>
+                </select>
+            </div>
+            <div class="selection">
+                <label>科室：</label>
+                <select class="keshi" disabled="disabled" name="hdid">
+                    <option value="">请选择...</option>
+                </select>
+            </div>
+            <div class="yuyuegh">
+                <a href="#" class="yuyuegh-a">预约挂号</a>
+            </div>
+           </div>
+        </div>
+    </div>
+    
+    <div class="footer" >
+        <div class="aside1">
+        
+              <a href="#" class="wedoctor-logo">
+                  <img src="./image/wedoctor.PNG" alt="wedoctor">
+              </a>
+           
+              <div class="as-1">
+                  <div class="as1-title">关于微医</div>
+                  <ul>
+                    <li>
+                        <a href="#" >关于我们</a>
+                    </li>
+                    <li>
+                     <a href="#" >加入微医</a>
+                    </li>
+                    <li>
+                     <a href="#" >联系我们</a>
+                    </li>
+                    <li>
+                     <a href="#" >网站地图</a>
+                    </li>
+                 </ul>
+                 <ul id="sui">
+                    <li>
+                        <a href="#" >友情链接</a>
+                    </li>
+                    <li>
+                     <a href="#" >版权声明</a>
+                    </li>
+                    <li>
+                     <a href="#" >新浪微博</a>
+                    </li>
+                    <li>
+                     <a href="#" >知识库</a>
+                    </li>
+                 </ul>
+                <div class="clear"></div>
+            </div>
+              <div class="as-2">
+                  <a href="#">医院合作</a>
+                  <br>
+                  <br>
+                  <br>
+                  <a href="#">客服中心</a>
+              </div>
+              <div class="as-3">
+                  <p>中国医院协会</p>
+                  <p>急诊管理专业委员会</p>
+                  <br>
+                  <br>
+                  <p>中国家庭报</p>
+                  <p>卫计委人口文化发展中心</p>
+              </div>
+              <div class="as-4">
+                  <p>上海复旦医院管理公司</p>
+              </div>
+
+
+        </div>
+        <div class="aside2"></div>
+    </div>
+</body>
+</html>

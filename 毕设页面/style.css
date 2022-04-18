@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    min-width: 1200px;
+    font-family: "微软雅黑";
+}
+.header-nav {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    /* background-color: skyblue; */
+    /* float: left; */
+}
+.nav-left {
+    margin-left: 32px;
+    /* background-color: yellow; */
+    width: 223px;
+    height: 100%;
+    color: black;
+    font-size: 12px;
+    float: left;
+}
+.nav-left a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+.nav-left a:hover,
+.nav-right a:hover {
+    color: blue;
+}
+.nav-left .line {
+    color: #bfbfbf;
+}
+
+.doctor {
+    padding-left: 30px;
+}
+.nav-right {
+    float: right;
+    margin-right: 32px;
+    width: 366px;
+    height: 100%;
+    /* background-color: cadetblue; */
+    font-size: 12px;
+}
+.nav-right a {
+    color: black;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.nav-right span {
+    color: #bfbfbf;
+}
+.header-main {
+    width: 100%;
+    height: 91px;
+    /* background-color: cornflowerblue; */
+
+}
+.main-contain {
+    /* float: left; */
+    padding: 25px 0;
+    margin: 0 30px;
+    height: 41px;
+    /* background-color: cyan; */
+}
+.mainlogo {
+    float: left;
+}
+.mainlogo img {
+    width: 320px;
+    height: 41px;
+}
+.search {
+    float: left;
+    margin-left: 30px;
+}
+.search input{
+    float: left;
+    width: 510px;
+    height: 41px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: yellowgreen;
+    border-right: hidden;
+
+}
+.btn-search {
+    background-color: yellowgreen;
+    border-left: hidden;
+    height: 41px;
+    width: 90px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+    color: white;
+}
+.img-handle {
+  float: right;
+  padding: 5px 0;
+}
+.img-handle img {
+    width: 200px;
+    height: 31px;
+}
+.header-menu {
+    height: 37px;
+    /* background-color: aquamarine; */
+    border-bottom: 2px solid blue;
+}
+.menu-container {
+    margin-left: 32px;
+    /* background-color: pink; */
+    height: 100%;
+}
+/* 快速帮你找医生 */
+.convenient {
+    float: left;
+   background-color: royalblue;
+   width: 180px;
+   height: 37px;
+   line-height: 37px;
+   text-align: center;
+   color: white;
+   font-size: 16px;
+}
+.menu-a {
+    float: left;
+    margin-left: 25px;
+    /* background-color: yellow; */
+    height: 100%;
+}
+.menu-a a {
+    display: inline-block;
+    height: 37px;
+    line-height: 37px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    padding-right: 30px;
+}
+.menu-a a:hover {
+    color: blue;
+}
+#onlineConsultation {
+    color: blue;
+}
+
+/* 过渡行 */
+.transition {
+    padding: 7px 0;
+    height: 24px;
+    margin: 0 32px;
+    /* background-color: cadetblue; */
+}
+.transition a {
+    color: blue;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.transition span {
+    font-size: 12px;
+}
+/* 主体部分 */
+.gh-container {
+    margin: 0 32px;
+    padding: 20px;
+    height: 830px;
+    /* background-color: pink; */
+    border: 1px solid #bfbfbf;
+}
+.gh-left {
+    float: left;
+    width: 280px;
+    height: 831px;
+    padding: 10px;
+    border-right: 1px solid #bfbfbf;
+    /* background-color: sandybrown; */
+}
+.gh-yygh {
+    height: 84px;
+    padding: 5px 5px 10px 5px;
+    border-bottom: 1px dashed #bfbfbf;
+}
+.gh-yygh h3 {
+    color: yellowgreen;
+    margin-bottom: 7px;
+}
+.gh-yygh p {
+    font-size: 12px;
+    color: #bfbfbf;
+    height: 18px;
+    margin-top: 4px;
+}
+.gh-bd {
+    /* float: left; */
+    padding: 20px 0 20px 5px;
+    height: 172px;
+    /* background-color: aqua; */
+}
+.bd1 {
+    float: left;
+}
+.bd1 img {
+    float: left;
+    width: 45px;
+    height: 45px;
+}
+.bd1-r {
+    float: left;
+    
+}
+.bd1-r h4 {
+    font-size: 16px;
+    color: skyblue
+}
+.bd1-r p {
+    font-size: 12px;
+    color: #bfbfbf;
+    margin-top: 4px;
+    
+}
+.bd2 {
+    float: left;
+    padding: 25px 0;
+}
+.bd2 img {
+    float: left;
+    width: 45px;
+    height: 45px;
+}
+.bd2-r {
+    float: left;
+    
+}
+.bd2-r h4 {
+    font-size: 16px;
+    color: yellowgreen
+}
+.bd2-r p {
+    font-size: 12px;
+    color: #bfbfbf;
+    margin-top: 4px;
+    width: 220px;
+}
+.qrcode {
+    height: 100px;
+    text-align: center;
+}
+.qrcode .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 15px;
+}
+.qrcode p {
+    font-size: 12px;
+    color: #bfbfbf;
+}
+.qrcode-list {
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.qrcode-list li {
+    float: left;
+    list-style: none;
+    margin: 12px;
+    
+}
+.qrcode-list img {
+    width: 90px;
+    height: 90px;
+}
+.download {
+    text-align: center;
+}
+.download div {
+    margin-top: 20px;
+}
+.iPhone {
+    height: 50px;
+    width: 200px;
+    border: 1px solid rgb(73, 139, 238);
+    border-radius: 8px;
+    color: rgb(73, 139, 238);
+    font-size: 18px;
+}
+.Android {
+    height: 50px;
+    width: 200px;
+    border: 1px solid yellowgreen;
+    border-radius: 8px;
+    color: yellowgreen;
+    font-size: 18px;
+}
+.gh-right {
+    float: left;
+    width: 692px;
+    height: 434px;
+    padding-top: 50px;
+    /* background-color: turquoise; */
+}
+.tips {
+    
+    background-color: #f3faff;
+    line-height: 20px;
+    margin-left: 160px;
+    padding: 5px 10px 5px 40px;
+    color: #888;
+    font-size: 14px;
+    width: 480px;
+    border: 1px solid #e0f2fe;
+}
+.databox {
+    padding-left: 260px;
+    padding-top: 40px;
+    font-size: 16px;
+
+}
+.selection {
+    width: 412px;
+    height: 47px;
+    padding-bottom: 11px;
+}
+.province,
+.city,
+.hospital,
+.keshi {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 278px;
+    height: 35px;
+    color: #333;
+}
+.citySelection {
+    padding-left: 43px;
+}
+.yuyuegh {
+    padding: 10px 0 0;
+    margin: 0 0 20px 50px;
+    height: 40px;
+   
+}
+.yuyuegh-a {
+    height: 38px;
+    width: 278px;
+    color: white;
+    background-color: yellowgreen;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.footer {
+   height: 160px;
+   margin: 0 32px;
+   padding: 27px 0;
+   /* background-color: bisque; */
+   margin-top: 30px;
+   border-top: 1px solid #bfbfbf;
+}
+.aside1 {
+    float: left;
+    height: 165px;
+    padding-bottom: 25px;
+    /* border-bottom: 1px solid #bfbfbf; */
+}
+.wedoctor-logo {
+    float: left;
+    padding-left: 20px;
+
+}
+.wedoctor-logo img{
+    /* float: left; */
+    width: 180px;
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.as-1 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 175px;
+    height: 150px;
+    border-left: 1px dashed #bfbfbf;
+    border-right: 1px dashed #bfbfbf;
+}
+.as1-title{
+   margin-top: 20px;
+   font-size: 16px;
+   padding-bottom: 10px;
+}
+.as-1 ul {
+   float: left;   
+}
+.as-1 li {
+    list-style: none;
+    
+}
+.as-1 li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #888;
+}
+#sui {
+    margin-left: 38px;
+}
+.as-2{
+    float: left;
+    width: 185px;
+    margin-top: 40px;
+    text-align: center;
+}
+.as-2 a {
+    text-decoration: none;
+    color: black;
+}
+.as-3 {
+    float: left;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 37px;
+    padding-left: 40px;
+    border-left: 1px dashed #bfbfbf;
+    font-size: 12px;
+    color: #888;
+
+}
+.as-4 {
+    float: left;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 37px;
+    padding-left: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
